@@ -289,10 +289,10 @@ export default function Home() {
         <ul>
           <li><strong>
             Na mitologia hindu, o universo é descrito como passando por ciclos de criação e destruição,
-            conhecidos como &apos;kalpas&apos;, que podem ser vistos como grandes blocos de renderização cósmica.
+            conhecidos como kalpas, que podem ser vistos como grandes blocos de renderização cósmica.
           </strong></li>
           <li><strong>
-            No budismo, o conceito de &apos;momentos mentais&apos; (&apos;cittakṣana&apos;) sugere que a realidade é composta
+            No budismo, o conceito de momentos mentais (cittakṣana) sugere que a realidade é composta
             por instantes discretos de consciência, semelhantes aos blocos renderizados.
           </strong></li>
         </ul>
@@ -306,7 +306,7 @@ export default function Home() {
         <ul>
           <li><strong>
             Em videogames, a fluidez da experiência depende da taxa de quadros por segundo (FPS).
-            Um FPS baixo resulta em uma experiência &quot;lenta&quot; ou &quot;travada&quot;, enquanto um FPS alto proporciona uma sensação de
+            Um FPS baixo resulta em uma experiência lenta ou travada, enquanto um FPS alto proporciona uma sensação de
             continuidade suave.
           </strong></li>
           <li><strong>
