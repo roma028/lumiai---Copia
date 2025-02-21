@@ -551,10 +551,10 @@ export default function Home() {
           {isClient ? "\\( B = \\frac{E \\hbar c^4}{4 \\pi k G M^2} \\)" : "Carregando..."}
         </p>
         <p>
-          Esses cálculos demonstram de forma quantitativa como a capacidade de &quot;renderizar&quot; novos blocos de informação
+          Esses cálculos demonstram de forma quantitativa como a capacidade de renderizar novos blocos de informação
           está intimamente ligada à energia do sistema e à massa (ou complexidade) presente.
         </p>
-        <h2 style={{ marginTop: &quot;100px&quot; }}>
+        <h2 style={{ marginTop: "100px" }}>
           Aplicações Modernas: Blockchain, Contratos Inteligentes e NFTs
         </h2>
         <p>
