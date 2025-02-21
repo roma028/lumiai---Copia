@@ -582,7 +582,7 @@ export default function Home() {
           NFTs (Tokens Não Fungíveis):
         </h3>         
         <p>
-          Os NFTs podem ser vistos como representações de "eventos renderizados" únicos no universo. 
+          Os NFTs podem ser vistos como representações de eventos renderizados únicos no universo. 
           Assim como cada NFT possui uma identidade exclusiva e não pode ser replicado, cada instante ou evento
           no universo pode ser considerado único, carregando um valor específico e irrepetível. Essa analogia reforça a
           visão de que o cosmos, como um sistema computacional, é composto por momentos singulares que, juntos, constroem
