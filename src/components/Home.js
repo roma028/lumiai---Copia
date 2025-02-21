@@ -282,17 +282,17 @@ export default function Home() {
           Implicações Filosóficas
         </h3>
         <p>
-          Essa visão do tempo como uma "taxa de atualização" também ressoa com conceitos filosóficos antigos. 
+          Essa visão do tempo como uma &quot;taxa de atualização&quot; também ressoa com conceitos filosóficos antigos.
           Muitas culturas antigas percebiam o tempo como algo cíclico ou fragmentado, 
           semelhante à ideia de blocos discretos sendo renderizados sequencialmente. Por exemplo:
         </p>
         <ul>
           <li><strong>
             Na mitologia hindu, o universo é descrito como passando por ciclos de criação e destruição, 
-            conhecidos como ''kalpas'', que podem ser vistos como grandes blocos de renderização cósmica.
+            conhecidos como &apos;&apos;kalpas&apos;&apos;, que podem ser vistos como grandes blocos de renderização cósmica.
           </strong></li>
           <li><strong>
-            No budismo, o conceito de ''momentos mentais'' (''cittakṣana'') sugere que a realidade é composta 
+            No budismo, o conceito de &apos;&apos;momentos mentais&apos;&apos; (&apos;&apos;cittakṣana&apos;&apos;) sugere que a realidade é composta
             por instantes discretos de consciência, semelhantes aos blocos renderizados.
           </strong></li>
         </ul>
@@ -306,12 +306,10 @@ export default function Home() {
         <ul>
           <li><strong>
             Em videogames, a fluidez da experiência depende da taxa de quadros por segundo (FPS). 
-            Um FPS baixo resulta em uma experiência "lenta" ou "travada", enquanto um FPS alto proporciona uma sensação de 
+            Um FPS baixo resulta em uma experiência &quot;lenta&quot; ou &quot;travada&quot;, enquanto um FPS alto proporciona uma sensação de
             continuidade suave.
           </strong></li>
           <li><strong>
-            Em videogames, a fluidez da experiência depende da taxa de quadros por segundo (FPS). Um FPS baixo resulta em uma 
-            experiência "lenta" ou "travada", enquanto um FPS alto proporciona uma sensação de continuidade suave.
           </strong></li>
         </ul>
         <p>
@@ -374,7 +372,7 @@ export default function Home() {
         </h3>
         <p>
           No nível celular, a energia disponível (E) é derivada de processos metabólicos, como a respiração celular e a fotossíntese. 
-          A entropia (S) representa a desordem ou o "peso" dos resíduos metabólicos e a complexidade das interações 
+          A entropia (S) representa a desordem ou o &quot;peso&quot; dos resíduos metabólicos e a complexidade das interações
           moleculares dentro da célula. A taxa de renderização de blocos (B) pode ser interpretada como a capacidade da 
           célula de realizar funções vitais, como replicação, reparo de DNA e resposta a estímulos externos.
         </p>
@@ -553,7 +551,7 @@ export default function Home() {
           {isClient ? "\\( B = \\frac{E \\hbar c^4}{4 \\pi k G M^2} \\)" : "Carregando..."}
         </p>
         <p>
-          Esses cálculos demonstram de forma quantitativa como a capacidade de "renderizar" novos blocos de informação 
+          Esses cálculos demonstram de forma quantitativa como a capacidade de &quot;renderizar&quot; novos blocos de informação
           está intimamente ligada à energia do sistema e à massa (ou complexidade) presente.
         </p>
         <h2 style={{ marginTop: "100px" }}>
@@ -585,7 +583,7 @@ export default function Home() {
         </h3>         
         <p>
           Os NFTs podem ser vistos como representações de "eventos renderizados" únicos no universo. 
-          Assim como cada NFT possui uma identidade exclusiva e não pode ser replicado, cada instante ou evento 
+          Assim como cada NFT possui uma identidade exclusiva e não pode ser replicado, cada instante ou evento
           no universo pode ser considerado único, carregando um valor específico e irrepetível. Essa analogia reforça a 
           visão de que o cosmos, como um sistema computacional, é composto por momentos singulares que, juntos, constroem 
           a realidade.
