@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 import Head from "next/head";
+import Image from 'next/image';
 import '../styles/globals.css';
 import styles from '../styles/Home.module.css'; 
-
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true); // Indica que o componente foi montado no cliente
+    setIsClient(true);
   }, []);
 
   useEffect(() => {
@@ -18,8 +18,7 @@ export default function Home() {
   }, [isClient]);
 
   return (
-    <div className={styles.container}  style={{ position: "relative", minHeight: "100vh", overflowY: "auto" }}>
-      {/* Adicionando MathJax */}
+    <div className={styles.container} style={{ position: "relative", minHeight: "100vh", overflowY: "auto" }}>
       <Head>
         <script
           type="text/javascript"
@@ -29,7 +28,6 @@ export default function Home() {
         ></script>
       </Head>
 
-      {/* Vídeo de fundo */}
       <video
         autoPlay
         loop
@@ -49,7 +47,6 @@ export default function Home() {
         }}
       />
 
-      {/* Ícones alinhados no canto esquerdo */}
       <div
         style={{
           position: 'fixed',
@@ -63,44 +60,44 @@ export default function Home() {
           zIndex: 1,
         }}
       >
-        {/* Ícone Instagram */}
         <a href="https://www.instagram.com/romatrix.xyz/" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             id="instagram"
             src="/insta.png"
             alt="Instagram"
+            width={60}
+            height={60}
             style={{
-              width: '60px',
               borderRadius: '8px',
-              boxShadow: '0 0 10px 1px rgba(255, 255, 255, 0.5)',
+              boxShadow: '0 0 10px 1px rgba(255, 255, 255, 0.5)'
             }}
           />
         </a>
 
-        {/* Ícone X */}
         <a href="https://x.com/RomatrixXyz" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             id="x"
             src="/x.png"
             alt="X"
+            width={60}
+            height={60}
             style={{
-              width: '60px',
               borderRadius: '8px',
-              boxShadow: '0 0 10px 1px rgba(255, 255, 255, 0.5)',
+              boxShadow: '0 0 10px 1px rgba(255, 255, 255, 0.5)'
             }}
           />
         </a>
 
-        {/* Ícone Discord */}
         <a href="https://discord.gg/gKNw8KrN8m" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             id="discord"
             src="/discord.png"
             alt="Discord"
+            width={60}
+            height={60}
             style={{
-              width: '60px',
               borderRadius: '8px',
-              boxShadow: '0 0 10px 1px rgba(0, 110, 255, 0.6)',
+              boxShadow: '0 0 10px 1px rgba(0, 110, 255, 0.6)'
             }}
           />
         </a>
@@ -189,7 +186,7 @@ export default function Home() {
         <ul>
           <li><strong>Energia disponível (E): </strong> Representa a capacidade computacional do sistema, isto é, 
           a quantidade de recursos disponíveis para cálculos e simulações.</li>
-          <li><strong>Entropia (S):</strong> Refere-se ao "peso" da informação já processada e à complexidade do sistema. 
+          <li><strong>Entropia (S):</strong> Refere-se ao peso da informação já processada e à complexidade do sistema. 
           Quanto maior a entropia, maior a desordem e a dificuldade para processar novos dados.</li>
         </ul>
         <p style={{ marginTop: "20px" }}>
