@@ -1,0 +1,111 @@
+/* Estilos globais */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Elementos arrastáveis */
+.draggable {
+  cursor: grab;
+  transition: transform 0.2s ease-in-out;
+}
+
+.draggable:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+}
+
+/* Relógio */
+.clock {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* New styles for Home.js */
+.mainContainer {
+  position: relative;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.iconContainer {
+  position: fixed;
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 1;
+}
+
+.icon {
+  width: 60px;
+  border-radius: 8px;
+}
+
+.iconInstagram {
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5);
+}
+
+.iconX {
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5);
+}
+
+.iconDiscord {
+  box-shadow: 0 0 10px 1px rgba(0, 110, 255, 0.6);
+}
+
+.textContainer {
+  position: relative;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding: 50px 10%;
+}
+
+.textContainer h1 {
+    font-size: 2em;
+}
+
+.textContainer h2 {
+    font-size: 1.5em;
+}
+
+.textContainer h3 {
+    font-size: 1.2em;
+}
+.textContainer h4 {
+    font-size: 1em;
+}
+
+.textContainer p {
+  font-size: 1em;
+}
