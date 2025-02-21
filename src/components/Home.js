@@ -250,10 +250,10 @@ export default function Home() {
         </p>
         <p>
           Ou seja, quanto maior a quantidade de energia disponível (E) e menor a entropia (S), mais rapidamente novos blocos
-          podem ser renderizados, resultando em uma percepção mais &quot;acelerada&quot; do tempo. Por outro lado, sistemas com alta
+          podem ser renderizados, resultando em uma percepção mais acelerada do tempo. Por outro lado, sistemas com alta
           entropia (como buracos negros) apresentam uma taxa de renderização extremamente lenta, levando a uma percepção
           de tempo praticamente congelada.
-        </p>
+          </p>
         <h3 style={{ marginTop: "30px" }}>
           Relação com a Relatividade Geral
         </h3>
@@ -282,7 +282,7 @@ export default function Home() {
           Implicações Filosóficas
         </h3>
         <p>
-          Essa visão do tempo como uma &quot;taxa de atualização&quot; também ressoa com conceitos filosóficos antigos.
+          Essa visão do tempo como uma taxa de atualização também ressoa com conceitos filosóficos antigos.
           Muitas culturas antigas percebiam o tempo como algo cíclico ou fragmentado,
           semelhante à ideia de blocos discretos sendo renderizados sequencialmente. Por exemplo:
         </p>
