@@ -34,7 +34,7 @@ export default function Home() {
 
       <div style={{ paddingLeft: '20px' }}>
         <h2 style={{ color: 'white', textAlign: 'center' }}>
-          Aplicação de (E) Energia (S) Entropia = (B) Bloco renderizado
+          Aplicação Simples da Relação de (E) Energia (S) Entropia = (B) Bloco renderizado
         </h2>
         <UniversoCubo />
       </div>
