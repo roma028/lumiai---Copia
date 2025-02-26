@@ -385,7 +385,11 @@ export default function Home() {
         </h3>
         <p>
           No nível celular, a energia disponível (E) é derivada de processos metabólicos, como a respiração celular e a fotossíntese. 
+<<<<<<< HEAD
           A entropia (S) representa a desordem ou o &quot;peso&quot; dos resíduos metabólicos e a complexidade das interações
+=======
+          A entropia (S) representa a desordem ou o peso dos resíduos metabólicos e a complexidade das interações
+>>>>>>> a64d1b3e63dc3904a90c8716fafac32661c686bc
           moleculares dentro da célula. A taxa de renderização de blocos (B) pode ser interpretada como a capacidade da
           célula de realizar funções vitais, como replicação, reparo de DNA e resposta a estímulos externos.
         </p>
