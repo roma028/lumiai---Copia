@@ -1,5 +1,4 @@
 import { useRef, useEffect } from 'react';
-import p5 from 'p5';
 
 const UniversoCubo = () => {
   const sketchRef = useRef();
