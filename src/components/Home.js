@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react';
-import Head from "next/head";
+import Head from 'next/head';
 import Image from 'next/image';
+import dynamic from 'next/dynamic'; // Importa o dynamic
 import '../styles/globals.css';
-import styles from '../styles/Home.module.css'; 
+import styles from '../styles/Home.module.css';
+
+// Importa o UniversoCubo só no client-side
+const UniversoCubo = dynamic(() => import('./UniversoCubo'), { ssr: false });
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -28,6 +32,15 @@ export default function Home() {
         ></script>
       </Head>
 
+      <div style={{ paddingLeft: '20px' }}>
+        <h2 style={{ color: 'white', textAlign: 'center' }}>
+          Aplicação de (E) Energia (S) Entropia = (B) Bloco renderizado
+        </h2>
+        <UniversoCubo />
+      </div>
+
+      
+
       <video
         autoPlay
         loop
@@ -50,13 +63,12 @@ export default function Home() {
       <div
         style={{
           position: 'fixed',
-          left: '2%',
-          top: '50%',
-          transform: 'translateY(-50%)',
+          right: '2%', // Alinha à direita
+          top: '3%',  // Posiciona no topo
           display: 'flex',
-          flexDirection: 'column',
+          
           alignItems: 'center',
-          gap: '20px',
+          gap: '10px',
           zIndex: 1,
         }}
       >
@@ -113,6 +125,7 @@ export default function Home() {
           fontSize: '18px',
           textAlign: 'left',
           padding: '50px 10%',
+          marginTop: '100px', // Adiciona margem no topo pra compensar o tamanho do canvas do UniversoCubo
         }}
       >
         <h1>O Multiverso de Bits: Explorando a Simulação do Cosmo</h1>
@@ -372,7 +385,7 @@ export default function Home() {
         </h3>
         <p>
           No nível celular, a energia disponível (E) é derivada de processos metabólicos, como a respiração celular e a fotossíntese. 
-          A entropia (S) representa a desordem ou o &quot;peso&quot; dos resíduos metabólicos e a complexidade das interações
+          A entropia (S) representa a desordem ou o "peso" dos resíduos metabólicos e a complexidade das interações
           moleculares dentro da célula. A taxa de renderização de blocos (B) pode ser interpretada como a capacidade da
           célula de realizar funções vitais, como replicação, reparo de DNA e resposta a estímulos externos.
         </p>
@@ -467,7 +480,7 @@ export default function Home() {
         </p>
         <ul>
           <li><strong>
-            reinamento de Modelos: Durante o treinamento de uma rede neural, a entropia (S) aumenta devido ao ajuste contínuo dos 
+            Treinamento de Modelos: Durante o treinamento de uma rede neural, a entropia (S) aumenta devido ao ajuste contínuo dos 
             pesos sinápticos. Para maximizar B, os algoritmos de otimização (como gradiente descendente) buscam minimizar a 
             entropia ao encontrar soluções mais eficientes.
           </strong></li>
@@ -688,30 +701,6 @@ export default function Home() {
             and Our Destiny Beyond Earth._ Doubleday.
           </strong></li>
         </ul>
-
-
-        
-
-        <p>
-
-        </p>
-
-
-        <h2 style={{ marginTop: "100px" }}>
-
-        </h2>
-
-
-        <h3 style={{ marginTop: "30px" }}>
-
-        </h3>
-
-
-        <ul>
-          <li><strong></strong></li>
-        </ul>
-
-
       </div>
     </div>
   );
